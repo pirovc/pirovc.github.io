@@ -1,4 +1,41 @@
 
+@article{Gruning2018,
+	title = {Bioconda: sustainable and comprehensive software distribution for the life sciences},
+	volume = {15},
+	copyright = {All rights reserved},
+	issn = {1548-7091},
+	url = {http://www.nature.com/articles/s41592-018-0046-7},
+	doi = {10.1038/s41592-018-0046-7},
+	abstract = {We present Bioconda (https://bioconda.github.io), a distribution of bioinformatics software for the lightweight, multi-platform and language-agnostic package manager, Conda. Currently, Bioconda offers a collection of over 2900 software tools, which are continuously maintained, updated, and extended by a growing global community of more than 200 contributors. Bioconda improves analysis reproducibility by allowing users to define isolated environments with defined software versions, all of which are easily installed and managed without administrative privileges.},
+	number = {7},
+	journal = {Nature Methods},
+	author = {Grüning, Björn and Dale, Ryan and Sjödin, Andreas and Chapman, Brad A. and Rowe, Jillian and Tomkins-Tinch, Christopher H. and Valieris, Renan and Köster, Johannes},
+	month = jul,
+	year = {2018},
+	note = {Publisher: Springer US},
+	
+	pages = {475--476},
+	
+}
+
+@article{Dadi2018,
+	title = {{DREAM}-{Yara}: an exact read mapper for very large databases with short update time},
+	volume = {34},
+	copyright = {All rights reserved},
+	issn = {1367-4803},
+	url = {https://academic.oup.com/bioinformatics/article/34/17/i766/5093228},
+	doi = {10.1093/bioinformatics/bty567},
+	abstract = {Motivation: Mapping-based approaches have become limited in their application to very large sets of references since computing an FM-index for very large databases (e.g. {\textgreater} 10 GB) has become a bottleneck. This affects many analyses that need such index as an essential step for approximate matching of the NGS reads to reference databases. For instance, in typical metagenomics analysis, the size of the reference sequences has become prohibitive to compute a single full- text index on standard machines. Even on large memory machines, computing such index takes about one day of computing time. As a result, updates of indices are rarely performed. Hence, it is desirable to create an alternative way of indexing while preserving fast search times. Results: To solve the index construction and update problem we propose the DREAM (Dynamic seaRchablE pArallel coMpressed index) framework and provide an implementation. The main contributions are the introduction of an approximate search distributor directories via a novel use of Bloom filters. We combine several Bloom filters to form an interleaved Bloom filter and use this new data structure to quickly exclude reads for parts of the databases where they cannot match. This allows us to keep the databases in several indices which can be easily rebuilt if parts are updated while maintaining a fast search time. The second main contribution is an implementation of DREAM-Yara a distributed version of a fully sensitive read mapper under the DREAM framework.},
+	number = {17},
+	journal = {Bioinformatics},
+	author = {Dadi, Temesgen Hailemariam and Siragusa, Enrico and Piro, Vitor C and Andrusch, Andreas and Seiler, Enrico and Renard, Bernhard Y and Reinert, Knut},
+	month = sep,
+	year = {2018},
+	
+	pages = {i766--i772},
+	
+}
+
 @article{Sczyrba2017,
 	title = {Critical {Assessment} of {Metagenome} {Interpretation}—a benchmark of metagenomics software},
 	volume = {14},
@@ -75,43 +112,6 @@
 	
 }
 
-@article{Gruning2018,
-	title = {Bioconda: sustainable and comprehensive software distribution for the life sciences},
-	volume = {15},
-	copyright = {All rights reserved},
-	issn = {1548-7091},
-	url = {http://www.nature.com/articles/s41592-018-0046-7},
-	doi = {10.1038/s41592-018-0046-7},
-	abstract = {We present Bioconda (https://bioconda.github.io), a distribution of bioinformatics software for the lightweight, multi-platform and language-agnostic package manager, Conda. Currently, Bioconda offers a collection of over 2900 software tools, which are continuously maintained, updated, and extended by a growing global community of more than 200 contributors. Bioconda improves analysis reproducibility by allowing users to define isolated environments with defined software versions, all of which are easily installed and managed without administrative privileges.},
-	number = {7},
-	journal = {Nature Methods},
-	author = {Grüning, Björn and Dale, Ryan and Sjödin, Andreas and Chapman, Brad A. and Rowe, Jillian and Tomkins-Tinch, Christopher H. and Valieris, Renan and Köster, Johannes},
-	month = jul,
-	year = {2018},
-	note = {Publisher: Springer US},
-	
-	pages = {475--476},
-	
-}
-
-@article{Dadi2018,
-	title = {{DREAM}-{Yara}: an exact read mapper for very large databases with short update time},
-	volume = {34},
-	copyright = {All rights reserved},
-	issn = {1367-4803},
-	url = {https://academic.oup.com/bioinformatics/article/34/17/i766/5093228},
-	doi = {10.1093/bioinformatics/bty567},
-	abstract = {Motivation: Mapping-based approaches have become limited in their application to very large sets of references since computing an FM-index for very large databases (e.g. {\textgreater} 10 GB) has become a bottleneck. This affects many analyses that need such index as an essential step for approximate matching of the NGS reads to reference databases. For instance, in typical metagenomics analysis, the size of the reference sequences has become prohibitive to compute a single full- text index on standard machines. Even on large memory machines, computing such index takes about one day of computing time. As a result, updates of indices are rarely performed. Hence, it is desirable to create an alternative way of indexing while preserving fast search times. Results: To solve the index construction and update problem we propose the DREAM (Dynamic seaRchablE pArallel coMpressed index) framework and provide an implementation. The main contributions are the introduction of an approximate search distributor directories via a novel use of Bloom filters. We combine several Bloom filters to form an interleaved Bloom filter and use this new data structure to quickly exclude reads for parts of the databases where they cannot match. This allows us to keep the databases in several indices which can be easily rebuilt if parts are updated while maintaining a fast search time. The second main contribution is an implementation of DREAM-Yara a distributed version of a fully sensitive read mapper under the DREAM framework.},
-	number = {17},
-	journal = {Bioinformatics},
-	author = {Dadi, Temesgen Hailemariam and Siragusa, Enrico and Piro, Vitor C and Andrusch, Andreas and Seiler, Enrico and Renard, Bernhard Y and Reinert, Knut},
-	month = sep,
-	year = {2018},
-	
-	pages = {i766--i772},
-	
-}
-
 @article{munoz-benavent_gnomo_2020,
 	title = {{gNOMO}: a multi-omics pipeline for integrated host and microbiome analysis of non-model organisms},
 	volume = {2},
@@ -128,6 +128,24 @@
 	month = sep,
 	year = {2020},
 	note = {Publisher: Oxford Academic},
+	
+}
+
+@article{meyer_critical_2022,
+	title = {Critical {Assessment} of {Metagenome} {Interpretation}: the second round of challenges},
+	copyright = {All rights reserved},
+	issn = {1548-7091, 1548-7105},
+	shorttitle = {Critical {Assessment} of {Metagenome} {Interpretation}},
+	url = {https://www.nature.com/articles/s41592-022-01431-4},
+	doi = {10.1038/s41592-022-01431-4},
+	abstract = {Abstract
+            Evaluating metagenomic software is key for optimizing metagenome interpretation and focus of the Initiative for the Critical Assessment of Metagenome Interpretation (CAMI). The CAMI II challenge engaged the community to assess methods on realistic and complex datasets with long- and short-read sequences, created computationally from around 1,700 new and known genomes, as well as 600 new plasmids and viruses. Here we analyze 5,002 results by 76 program versions. Substantial improvements were seen in assembly, some due to long-read data. Related strains still were challenging for assembly and genome recovery through binning, as was assembly quality for the latter. Profilers markedly matured, with taxon profilers and binners excelling at higher bacterial ranks, but underperforming for viruses and Archaea. Clinical pathogen detection results revealed a need to improve reproducibility. Runtime and memory usage analyses identified efficient programs, including top performers with other metrics. The results identify challenges and guide researchers in selecting methods for analyses.},
+	language = {en},
+	urldate = {2022-04-11},
+	journal = {Nature Methods},
+	author = {Meyer, Fernando and Fritz, Adrian and Deng, Zhi-Luo and Koslicki, David and Lesker, Till Robin and Gurevich, Alexey and Robertson, Gary and Alser, Mohammed and Antipov, Dmitry and Beghini, Francesco and Bertrand, Denis and Brito, Jaqueline J. and Brown, C. Titus and Buchmann, Jan and Buluç, Aydin and Chen, Bo and Chikhi, Rayan and Clausen, Philip T. L. C. and Cristian, Alexandru and Dabrowski, Piotr Wojciech and Darling, Aaron E. and Egan, Rob and Eskin, Eleazar and Georganas, Evangelos and Goltsman, Eugene and Gray, Melissa A. and Hansen, Lars Hestbjerg and Hofmeyr, Steven and Huang, Pingqin and Irber, Luiz and Jia, Huijue and Jørgensen, Tue Sparholt and Kieser, Silas D. and Klemetsen, Terje and Kola, Axel and Kolmogorov, Mikhail and Korobeynikov, Anton and Kwan, Jason and LaPierre, Nathan and Lemaitre, Claire and Li, Chenhao and Limasset, Antoine and Malcher-Miranda, Fabio and Mangul, Serghei and Marcelino, Vanessa R. and Marchet, Camille and Marijon, Pierre and Meleshko, Dmitry and Mende, Daniel R. and Milanese, Alessio and Nagarajan, Niranjan and Nissen, Jakob and Nurk, Sergey and Oliker, Leonid and Paoli, Lucas and Peterlongo, Pierre and Piro, Vitor C. and Porter, Jacob S. and Rasmussen, Simon and Rees, Evan R. and Reinert, Knut and Renard, Bernhard and Robertsen, Espen Mikal and Rosen, Gail L. and Ruscheweyh, Hans-Joachim and Sarwal, Varuni and Segata, Nicola and Seiler, Enrico and Shi, Lizhen and Sun, Fengzhu and Sunagawa, Shinichi and Sørensen, Søren Johannes and Thomas, Ashleigh and Tong, Chengxuan and Trajkovski, Mirko and Tremblay, Julien and Uritskiy, Gherman and Vicedomini, Riccardo and Wang, Zhengyang and Wang, Ziye and Wang, Zhong and Warren, Andrew and Willassen, Nils Peder and Yelick, Katherine and You, Ronghui and Zeller, Georg and Zhao, Zhengqiao and Zhu, Shanfeng and Zhu, Jie and Garrido-Oter, Ruben and Gastmeier, Petra and Hacquard, Stephane and Häußler, Susanne and Khaledi, Ariane and Maechler, Friederike and Mesny, Fantin and Radutoiu, Simona and Schulze-Lefert, Paul and Smit, Nathiana and Strowig, Till and Bremges, Andreas and Sczyrba, Alexander and McHardy, Alice Carolyn},
+	month = apr,
+	year = {2022},
 	
 }
 
@@ -204,43 +222,6 @@
 	
 }
 
-@article{meyer_critical_2022,
-	title = {Critical {Assessment} of {Metagenome} {Interpretation}: the second round of challenges},
-	copyright = {All rights reserved},
-	issn = {1548-7091, 1548-7105},
-	shorttitle = {Critical {Assessment} of {Metagenome} {Interpretation}},
-	url = {https://www.nature.com/articles/s41592-022-01431-4},
-	doi = {10.1038/s41592-022-01431-4},
-	abstract = {Abstract
-            Evaluating metagenomic software is key for optimizing metagenome interpretation and focus of the Initiative for the Critical Assessment of Metagenome Interpretation (CAMI). The CAMI II challenge engaged the community to assess methods on realistic and complex datasets with long- and short-read sequences, created computationally from around 1,700 new and known genomes, as well as 600 new plasmids and viruses. Here we analyze 5,002 results by 76 program versions. Substantial improvements were seen in assembly, some due to long-read data. Related strains still were challenging for assembly and genome recovery through binning, as was assembly quality for the latter. Profilers markedly matured, with taxon profilers and binners excelling at higher bacterial ranks, but underperforming for viruses and Archaea. Clinical pathogen detection results revealed a need to improve reproducibility. Runtime and memory usage analyses identified efficient programs, including top performers with other metrics. The results identify challenges and guide researchers in selecting methods for analyses.},
-	language = {en},
-	urldate = {2022-04-11},
-	journal = {Nature Methods},
-	author = {Meyer, Fernando and Fritz, Adrian and Deng, Zhi-Luo and Koslicki, David and Lesker, Till Robin and Gurevich, Alexey and Robertson, Gary and Alser, Mohammed and Antipov, Dmitry and Beghini, Francesco and Bertrand, Denis and Brito, Jaqueline J. and Brown, C. Titus and Buchmann, Jan and Buluç, Aydin and Chen, Bo and Chikhi, Rayan and Clausen, Philip T. L. C. and Cristian, Alexandru and Dabrowski, Piotr Wojciech and Darling, Aaron E. and Egan, Rob and Eskin, Eleazar and Georganas, Evangelos and Goltsman, Eugene and Gray, Melissa A. and Hansen, Lars Hestbjerg and Hofmeyr, Steven and Huang, Pingqin and Irber, Luiz and Jia, Huijue and Jørgensen, Tue Sparholt and Kieser, Silas D. and Klemetsen, Terje and Kola, Axel and Kolmogorov, Mikhail and Korobeynikov, Anton and Kwan, Jason and LaPierre, Nathan and Lemaitre, Claire and Li, Chenhao and Limasset, Antoine and Malcher-Miranda, Fabio and Mangul, Serghei and Marcelino, Vanessa R. and Marchet, Camille and Marijon, Pierre and Meleshko, Dmitry and Mende, Daniel R. and Milanese, Alessio and Nagarajan, Niranjan and Nissen, Jakob and Nurk, Sergey and Oliker, Leonid and Paoli, Lucas and Peterlongo, Pierre and Piro, Vitor C. and Porter, Jacob S. and Rasmussen, Simon and Rees, Evan R. and Reinert, Knut and Renard, Bernhard and Robertsen, Espen Mikal and Rosen, Gail L. and Ruscheweyh, Hans-Joachim and Sarwal, Varuni and Segata, Nicola and Seiler, Enrico and Shi, Lizhen and Sun, Fengzhu and Sunagawa, Shinichi and Sørensen, Søren Johannes and Thomas, Ashleigh and Tong, Chengxuan and Trajkovski, Mirko and Tremblay, Julien and Uritskiy, Gherman and Vicedomini, Riccardo and Wang, Zhengyang and Wang, Ziye and Wang, Zhong and Warren, Andrew and Willassen, Nils Peder and Yelick, Katherine and You, Ronghui and Zeller, Georg and Zhao, Zhengqiao and Zhu, Shanfeng and Zhu, Jie and Garrido-Oter, Ruben and Gastmeier, Petra and Hacquard, Stephane and Häußler, Susanne and Khaledi, Ariane and Maechler, Friederike and Mesny, Fantin and Radutoiu, Simona and Schulze-Lefert, Paul and Smit, Nathiana and Strowig, Till and Bremges, Andreas and Sczyrba, Alexander and McHardy, Alice Carolyn},
-	month = apr,
-	year = {2022},
-	
-}
-
-@techreport{miranda_hitac_2022,
-	title = {{HiTaC}: {Hierarchical} {Taxonomic} {Classification} of {Fungal} {ITS} {Sequences}},
-	copyright = {© 2022, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/},
-	shorttitle = {{HiTaC}},
-	url = {https://www.biorxiv.org/content/10.1101/2020.04.24.014852v2},
-	abstract = {Background: Fungi play a key role in several important ecological functions, ranging from organic matter decomposition to symbiotic associations with plants. Moreover, fungi naturally inhabit the human microbiome and can be causative agents of human infections. An accurate and robust method for fungal ITS classification is not only desired for the purpose of better diversity estimation, but it can also help us gain a deeper insight into the dynamics of environmental communities and ultimately comprehend whether the abundance of certain species correlate with health and disease. Although many methods have been proposed for taxonomic classification, to the best of our knowledge, none of them consider the taxonomic tree hierarchy when building their models. This in turn, leads to lower generalization power and higher risk of committing classification errors. Results: Here, we introduce HiTaC, a robust, hierarchical machine learning model for accurate ITS classification, which requires a small amount of data for training and is able to handle imbalanced datasets. HiTaC was thoroughly evaluated with the established TAXXI benchmark, characterizing its ability to correctly classify fungal ITS sequences of varying lengths and a range of identity differences between the training and test data. HiTaC outperforms state-of-the-art methods when trained over noisy data, consistently achieving higher accuracy and sensitivity across different taxonomic ranks, improving accuracy by 5.5 and sensitivity by 6.9 percentage points over top methods in the most noisy dataset available on TAXXI. Conclusions: HiTaC outperformed state-of-the-art taxonomic classifiers in most metrics. A user-friendly QIIME2 plugin allows users to easily include HiTaC in existing pipelines. HiTaC is publicly available and freely accessible at https://gitlab.com/dacs-hpi/hitac.},
-	language = {en},
-	urldate = {2022-11-21},
-	institution = {bioRxiv},
-	author = {Miranda, Fabio M. and Azevedo, Vasco A. C. and Renard, Bernhard Y. and Piro, Vitor C. and Ramos, Rommel T. J.},
-	month = nov,
-	year = {2022},
-	doi = {10.1101/2020.04.24.014852},
-	note = {Section: New Results
-Type: article},
-	pages = {2020.04.24.014852},
-	
-}
-
 @article{piro_contamination_2023,
 	title = {Contamination detection and microbiome exploration with {GRIMER}},
 	volume = {12},
@@ -273,5 +254,46 @@ Type: article},
 	year = {2023},
 	note = {Pages: 2023.12.07.570547
 Section: New Results},
+	
+}
+
+@article{miranda_hitac_2024,
+	title = {Hitac: a hierarchical taxonomic classifier for fungal {ITS} sequences compatible with {QIIME2}},
+	volume = {25},
+	copyright = {All rights reserved},
+	issn = {1471-2105},
+	shorttitle = {Hitac},
+	url = {https://doi.org/10.1186/s12859-024-05839-x},
+	doi = {10.1186/s12859-024-05839-x},
+	abstract = {Fungi play a key role in several important ecological functions, ranging from organic matter decomposition to symbiotic associations with plants. Moreover, fungi naturally inhabit the human body and can be beneficial when administered as probiotics. In mycology, the internal transcribed spacer (ITS) region was adopted as the universal marker for classifying fungi. Hence, an accurate and robust method for ITS classification is not only desired for the purpose of better diversity estimation, but it can also help us gain a deeper insight into the dynamics of environmental communities and ultimately comprehend whether the abundance of certain species correlate with health and disease. Although many methods have been proposed for taxonomic classification, to the best of our knowledge, none of them fully explore the taxonomic tree hierarchy when building their models. This in turn, leads to lower generalization power and higher risk of committing classification errors.},
+	number = {1},
+	urldate = {2024-07-18},
+	journal = {BMC Bioinformatics},
+	author = {Miranda, Fábio M. and Azevedo, Vasco C. and Ramos, Rommel J. and Renard, Bernhard Y. and Piro, Vitor C.},
+	month = jul,
+	year = {2024},
+	
+	pages = {228},
+	
+}
+
+@article{yuu_gut_2024,
+	title = {The gut microbiome, resistome, and mycobiome in preterm newborn infants and mouse pups: lack of lasting effects by antimicrobial therapy or probiotic prophylaxis},
+	volume = {16},
+	copyright = {All rights reserved},
+	issn = {1757-4749},
+	shorttitle = {The gut microbiome, resistome, and mycobiome in preterm newborn infants and mouse pups},
+	url = {https://doi.org/10.1186/s13099-024-00616-w},
+	doi = {10.1186/s13099-024-00616-w},
+	abstract = {Enhancing our understanding of the underlying influences of medical interventions on the microbiome, resistome and mycobiome of preterm born infants holds significant potential for advancing infection prevention and treatment strategies. We conducted a prospective quasi-intervention study to better understand how antibiotics, and probiotics, and other medical factors influence the gut development of preterm infants. A controlled neonatal mice model was conducted in parallel, designed to closely reflect and predict exposures. Preterm infants and neonatal mice were stratified into four groups: antibiotics only, probiotics only, antibiotics followed by probiotics, and none of these interventions. Stool samples from both preterm infants and neonatal mice were collected at varying time points and analyzed by 16 S rRNA amplicon sequencing, ITS amplicon sequencing and whole genome shotgun sequencing.},
+	language = {en},
+	number = {1},
+	urldate = {2024-07-18},
+	journal = {Gut Pathogens},
+	author = {Yuu, Elizabeth Y. and Bührer, Christoph and Eckmanns, Tim and Fulde, Marcus and Herz, Michaela and Kurzai, Oliver and Lindstedt, Christin and Panagiotou, Gianni and Piro, Vitor C. and Radonic, Aleksandar and Renard, Bernhard Y. and Reuss, Annicka and Siliceo, Sara Leal and Thielemann, Nadja and Thürmer, Andrea and Vorst, Kira van and Wieler, Lothar H. and Haller, Sebastian},
+	month = may,
+	year = {2024},
+	
+	pages = {27},
 	
 }
