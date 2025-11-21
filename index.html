@@ -238,9 +238,9 @@
   <div class="basic-info section">
     <div class="set">
       <p class="email">
-          <a href="https://github.com/pirovc">GitHub</a>
-          <a href="https://scholar.google.com.br/citations?user=we85iqIAAAAJ">Scholar</a>
-          <a href="https://genomic.social/@pirovc">Mastodon</a>
+          <a href="https://github.com/pirovc">github</a>
+          <a href="https://www.researchgate.net/profile/Vitor_Piro">researchgate</a>
+          <a href="https://genomic.social/@pirovc">mastodon</a>
           <br />
       </p>
       <div class="clear"> </div>
@@ -249,32 +249,22 @@
   </div>
 </div>
 <div class="clear"> </div>
-<div class="section section-research">
-  <h2 class="title">Research Interests</h2>
-  <div class="set">
-    <div class="item">
-      <span class="info">
-        Development of methods for bioinformatics, currently with focus on microbial communities, environmental data and metagenomics. I am also interested in many related fields: binning, profiling and assembly of community samples, amplicon and marker gene analysis, phylogeny, taxonomic classification, species delineation, contamination, high performance algorithms, sequence mapping/alignment, antimicrobial resistance, genome assembly and finishing methods. </span>
-    </div>
-  </div>
-  <div class="clear"> </div>
-</div>
 <div class="section section-software">
   <h2 class="title">Software</h2>
   <div class="set">
     <div class="item">
       <span class="info">
-		<span class="dot">&sect;</span> <a href="https://github.com/pirovc/ganon">ganon2</a> is a k-mer based classification tool which uses Hierarchical Interleaved Bloom Filters to classifiy genomic sequences against large sets of references efficiently, with integrated download and update of databases (refseq/genbank), taxonomic profiling (ncbi/gtdb), binning and hierarchical classification, customized reporting and more.
+		<span class="dot">&sect;</span> <a href="https://github.com/pirovc/ganon">ganon2</a> is a k-mer-based classification tool that uses hierarchical interleaved Bloom filters to efficiently classify genomic sequences against large reference sets. It offers integrated database download and updates (RefSeq/GenBank), taxonomic profiling (NCBI/GTDB), binning, hierarchical classification and customised reporting.
         <br />
         <a href="http://bioconda.github.io/recipes/ganon/README.html"><img src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" alt="" /></a> <a href="https://anaconda.org/bioconda/ganon"><img src="https://anaconda.org/bioconda/ganon/badges/downloads.svg" alt="" /></a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pirovc/ganon?style=social" />
         <br />
         <br />
-        <span class="dot">&sect;</span> <a href="https://github.com/pirovc/genome_updater">genome_updater</a> is a portable bash script to download and update files from NCBI genomes, keeping log and version for each update, with file check and parallel download support.
+        <span class="dot">&sect;</span> <a href="https://github.com/pirovc/genome_updater">genome_updater</a> is a bash script that downloads and updates (non-redundant) snapshots of the NCBI Genomes repository (RefSeq/GenBank) with advanced filters, detailed logs and reports, file integrity checks, NCBI taxonomy and GTDB integration and support for parallel downloads.
         <br />
         <a href="http://bioconda.github.io/recipes/genome_updater/README.html"><img src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" alt="" /></a> <a href="https://anaconda.org/bioconda/genome_updater"><img src="https://anaconda.org/bioconda/genome_updater/badges/downloads.svg" alt="" /></a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pirovc/genome_updater?style=social" />
         <br />
         <br />
-        <span class="dot">&sect;</span> <a href="https://github.com/pirovc/multitax">MultiTax</a> is a Python package that provides a common and generalized set of functions to download, parse, filter and explore multiple biological taxonomies (GTDB, NCBI, Silva, Greengenes, Open Tree taxonomy) and custom formatted taxonomies. 
+        <span class="dot">&sect;</span> <a href="https://github.com/pirovc/multitax">MultiTax</a>  is a Python package that provides a standardised set of functions for downloading, parsing, filtering and exploring multiple taxonomies, including GTDB, NCBI, Silva, Greengenes and Open Tree Taxonomy, as well as custom-formatted taxonomies.
         <br />
         <a href="http://bioconda.github.io/recipes/multitax/README.html"><img src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" alt="" /></a> <a href="https://anaconda.org/bioconda/multitax"><img src="https://anaconda.org/bioconda/multitax/badges/downloads.svg" alt="" /></a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pirovc/multitax?style=social" />
         <br />
@@ -312,14 +302,13 @@
   <h2 class="title">Publications</h2>
   <div class="clear"> </div>
 </div>
-
 <div class="bibtex_template row">
     <div class="column left">
       <span class="title" style="font-weight: bold;"></span>
       <br>
       <span class="author"></span>
       <span class="journal" style="font-style: italic;"></span>
-      <span class="year"></span>
+      <span class="date"></span>
       <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
         https://dx.doi.org/<span class="doi"></span>
       </a>
@@ -333,7 +322,7 @@
   <br><br>
 </div>
 <div class="bibtex_structure">
-  <div class="group year" extra="DESC number">
+  <div class="sort date" extra="DESC number">
     <h2 class="title"></h2>
     <div class="templates"></div>
     <br>
