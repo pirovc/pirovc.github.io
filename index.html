@@ -6,7 +6,7 @@
   <meta http-equiv="Generator" content="CV Maker - https://cvmkr.com/" />
   
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js/src/bibtex_js.js"></script>
-  <bibtex src="https://raw.githubusercontent.com/pirovc/pirovc.github.io/master/pirovc.bib"></bibtex>
+  <bibtex src="https://raw.githubusercontent.com/pirovc/pirovc.github.io/main/pirovc.bib"></bibtex>
   <script type='text/javascript'>
     function loaded() {
       setTimeout(function(){
@@ -91,7 +91,7 @@
       box-shadow: 0 0 6px #ccc;
     }
     
-    #title {
+    #toptitle {
       line-height: 42px;
       margin: 0px 0 15px 0;
       font-weight: normal;
@@ -143,8 +143,8 @@
       margin: 0 10px;
     }
     
-    .section .title {
-      text-transform: uppercase;
+    .section .subtitle {
+      text-transform: lower;
       font-size: 150%;
       text-align: center;
       border-bottom: 1px solid #ccc;
@@ -234,7 +234,7 @@
 
 <div id="main">
 <div class="header">
-  <h1 id="title">Vitor C. Piro</h1>
+  <h1 id="toptitle">Vitor C. Piro</h1>
   <div class="basic-info section">
     <div class="set">
       <p class="email">
@@ -250,7 +250,7 @@
 </div>
 <div class="clear"> </div>
 <div class="section section-software">
-  <h2 class="title">Software</h2>
+  <h2 class="subtitle">Software</h2>
   <div class="set">
     <div class="item">
       <span class="info">
@@ -298,13 +298,10 @@
   <div class="clear"> </div>
 </div>
 
-<div class="section section-publications">
-  <h2 class="title">Publications</h2>
-  <div class="clear"> </div>
-</div>
+
 <div class="bibtex_template row">
     <div class="column left">
-      <span class="title" style="font-weight: bold;"></span>
+      <span class="title" style="font-weight: bold;font-size: 16px;"></span>
       <br>
       <span class="author"></span>
       <span class="journal" style="font-style: italic;"></span>
@@ -321,13 +318,37 @@
     </div>
   <br><br>
 </div>
+
+<div class="section section-publications">
+
 <div class="bibtex_structure">
-  <div class="sort date" extra="DESC number">
-    <h2 class="title"></h2>
-    <div class="templates"></div>
-    <br>
+  <div class="sections bibtextypekey">
+    
+    <div class="section article">
+        <h2 class="subtitle">Peer-reviewed publications</h2>
+        <div class="clear"> </div>
+        <div class="sort date" extra="DESC number">
+          <h2 class="title"></h2>
+          <div class="templates"></div>
+        </div>
+    </div>
+
+    <div class="section misc">
+        <h2 class="subtitle">Pre-prints</h2>
+        <div class="clear"> </div>
+        <div class="sort date" extra="DESC number">
+          <h2 class="title"></h2>
+          <div class="templates"></div>
+        </div>
+    </div>
   </div>
 </div>
+
+
+</div>
+
+
+
 <div id="bibtex_display"></div>
 <div id="credit">Webpage template from <a href="https://cvmkr.com/">CV Maker</a> | Publication list generated automatically with <a href="https://github.com/pcooksey/bibtex-js">bibtex-js</a></div>
 </body>
